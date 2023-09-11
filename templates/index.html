@@ -14,6 +14,8 @@
     {% extends "template.html" %}
     {% block content %}
       <h1>Flask App</h1>
+      <p>{{datum.year}}/{{datum.day}}/{{datum.month}}</p>
+      <img src="{{datum.img}}" />
     {% endblock %}
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
